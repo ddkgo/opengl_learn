@@ -38,12 +38,21 @@
     <ClCompile Include="openGL-Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.fs">
       <Filter>资源文件</Filter>
     </None>
     <None Include="shaders\shader.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shaders\coordinate_systems.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shaders\coordinate_systems.vs">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>

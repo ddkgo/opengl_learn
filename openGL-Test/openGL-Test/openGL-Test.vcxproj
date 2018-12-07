@@ -163,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="camera.h" />
     <ClCompile Include="openGL-Test.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -173,6 +174,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\coordinate_systems.fs" />
+    <None Include="shaders\coordinate_systems.vs" />
     <None Include="shaders\shader.fs" />
     <None Include="shaders\shader.vs" />
   </ItemGroup>
