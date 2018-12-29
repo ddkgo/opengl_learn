@@ -174,8 +174,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\colors.fs" />
+    <None Include="shaders\colors.vs" />
     <None Include="shaders\coordinate_systems.fs" />
     <None Include="shaders\coordinate_systems.vs" />
+    <None Include="shaders\lamp.fs" />
+    <None Include="shaders\lamp.vs" />
     <None Include="shaders\shader.fs" />
     <None Include="shaders\shader.vs" />
   </ItemGroup>

@@ -55,5 +55,17 @@
     <None Include="shaders\coordinate_systems.vs">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="shaders\colors.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shaders\colors.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shaders\lamp.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shaders\lamp.vs">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
