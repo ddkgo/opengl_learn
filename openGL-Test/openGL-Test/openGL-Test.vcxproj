@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>H:\OpenGL\glfw-bin-3.2.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>H:\OpenGL\glfw-bin-3.2.1\libs\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>../../glfw-bin-3.2.1/include;$(IncludePath)</IncludePath>
+    <LibraryPath>../../glfw-bin-3.2.1/libs/x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -94,7 +94,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>H:\OpenGL\openGL-Test\openGL-Test\libs;H:\OpenGL\glad-3.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../openGL-Test/openGL-Test/libs;../../glad-3.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
